@@ -54,7 +54,7 @@ class SellerResource extends Resource
                     ->schema([
                         Group::make()
                             ->schema([
-                                TextInput::make('user.name')
+                                TextInput::make('name')
                                     ->label('Sales Name')
                                     ->required(),
                                 Select::make('gender')
@@ -66,7 +66,7 @@ class SellerResource extends Resource
                             ])->columns(2),
                         Group::make()
                             ->schema([
-                                TextInput::make('user.email')
+                                TextInput::make('email')
                                     ->email()
                                     ->required(),
 //                                    ->unique(User::class, 'email', ignoreRecord: true),
