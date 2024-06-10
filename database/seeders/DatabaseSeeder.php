@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             BranchSeeder::class,
             SellerSeeder::class,
-            UserRoleSeeder::class
+            UserRoleSeeder::class,
+            PackageSeeder::class,
         ]);
     }
 }
