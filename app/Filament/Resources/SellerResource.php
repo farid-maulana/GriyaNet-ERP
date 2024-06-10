@@ -42,8 +42,8 @@ class SellerResource extends Resource
     protected static ?string $slug = 'sellers';
     protected static ?string $navigationIcon = 'heroicon-o-users';
     protected static ?string $navigationLabel = 'Sales';
-    protected static ?string $navigationGroup = 'Master Data';
-    protected static ?int $navigationSort = 2;
+    protected static ?string $navigationGroup = 'HR Data';
+    protected static ?int $navigationSort = 1;
     protected static ?string $label = 'Sales';
 
     public static function form(Form $form): Form

@@ -30,8 +30,8 @@ class PackageResource extends Resource
     protected static ?string $slug = 'packages';
     protected static ?string $navigationIcon = 'heroicon-o-tag';
     protected static ?string $navigationLabel = 'Pricelist';
-    protected static ?string $navigationGroup = 'Master Data';
-    protected static ?int $navigationSort = 3;
+    protected static ?string $navigationGroup = 'Company Data';
+    protected static ?int $navigationSort = 2;
     protected static ?string $label = 'Pricelist';
 
     public static function form(Form $form): Form

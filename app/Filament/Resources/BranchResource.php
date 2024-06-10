@@ -29,7 +29,7 @@ class BranchResource extends Resource
     protected static ?string $model = Branch::class;
     protected static ?string $slug = 'branches';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-group';
-    protected static ?string $navigationGroup = 'Master Data';
+    protected static ?string $navigationGroup = 'Company Data';
     protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form
