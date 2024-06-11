@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             UserRoleSeeder::class,
             PackageSeeder::class,
             PipelineStageSeeder::class,
+            CustomerSeeder::class,
         ]);
     }
 }
